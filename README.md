@@ -12,4 +12,5 @@
   - Each person has been assigned a set of species alignments to check in the `Data/Buffalo_data/Aligned_data/Original` folder
     - You should find a folder with your name on it 
   - Check each alignment in your folder and make any edits necessary
+    - Trim ends with less than 10 sequences
   - Upload the updated (clean) alignments to the `Data/Buffalo_data/Aligned_data/Clean` folder
