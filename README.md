@@ -1,5 +1,15 @@
 # Carstens Lab Genetic Diversity Project
 --------
-### Data Collection
-* Upload genetic data to the correct Data folder on GitHub
-  + Keep track of data source, notes, etc. by entering it into the [data collection log](https://buckeyemailosu-my.sharepoint.com/:x:/g/personal/parsons_463_buckeyemail_osu_edu/EcGlIa1ZUrpAmiuGX-CNR9EBNRYBUssx92cS6BktEksBWw?e=hPInav)
+## PRELIMINARY ANALYSES 
+### I) Buffalo et al. mitochondrial diversity
+1. COI sequences were pulled from GenBank for each of the species in Buffalo et al.
+  - Fasta files for each species are located in `Data/Buffalo_data/Unaligned_data`
+2. Sequences were aligned using MAFFT 
+  - Aligned fasta files (.afa) for each species are located in `Data/Buffalo_data/Aligned_data/Original`
+  
+**TO DO:**
+1. Check species alignments for errors (reversecomp, parasitic sequences, gappy regions, etc.) 
+  - Each person has been assigned a set of species alignments to check in the `Data/Buffalo_data/Aligned_data/Original` folder
+    - You should find a folder with your name on it 
+  - Check each alignment in your folder and make any edits necessary
+  - Upload the updated (clean) alignments to the `Data/Buffalo_data/Aligned_data/Clean` folder
